@@ -1,4 +1,4 @@
-# HTML/CSS Pracice One
+# HTML/CSS Practice One
 
 ## Requirements
 * Work fine on Chrome browser's latest version
