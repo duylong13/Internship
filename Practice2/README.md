@@ -28,17 +28,17 @@
 * Hold ctrl and click on the successfully created localhost link to view the website
 
 ## Folders Structure
-|--src
-  |--assets
-    |--fonts
-    |--images
-  |--styles
-    |--base.css
-    |-main.css
-    |-variables.css
-|--.editorconfig
-|--.gitignore
-|--index.html
-|--package-lock.json
-|--package.json
-|--README.md
+* src
+  * assets
+    * fonts
+    * images
+  * styles
+    * base.css
+    * main.css
+    * variables.css
+* .editorconfig
+* .gitignore
+* index.html
+* package-lock.json
+* package.json
+* README.md
