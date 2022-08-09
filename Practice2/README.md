@@ -28,14 +28,48 @@
 * Hold ctrl and click on the successfully created localhost link to view the website
 
 ## Folders Structure
-* src
-  * assets
-    * fonts
-    * images
-  * styles
-    * base.css
+* src/
+  * assets/
+    * fonts/
+    * images/
+  * styles/
+    * base/
+      * base/
+        * base.css
+      * reset/
+        * reset.css
+      * main-base.css
+    * components/
+      * main-com.css
+    * layout/
+      * choose-your-plan/
+        * choose-your-plan.css
+      * features/
+        * features.css
+      * footer/
+        * footer.css
+      * gregory/
+        * gregory.css
+      * header/
+        * header.css
+      * map/
+        * map.css
+      * portfolio/
+        * portfolio.css
+      * stay-in-touch/
+        * stay-in-touch.css
+      * testimonials/
+        * testimonials.css
+      * version/
+        * version.css
+      * main-layout.css
+    * variables/
+      * color/
+        * color.css
+      * font-size/
+        * font-size.css
+      * main-var.css
     * main.css
-    * variables.css
 * .editorconfig
 * .gitignore
 * index.html
