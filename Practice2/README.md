@@ -34,40 +34,20 @@
     * images/
   * styles/
     * base/
-      * base/
-        * base.css
-      * reset/
-        * reset.css
-      * main-base.css
+      * base.css
+      * reset.css
     * components/
-      * main-com.css
-    * layout/
-      * choose-your-plan/
-        * choose-your-plan.css
-      * features/
-        * features.css
-      * footer/
-        * footer.css
-      * gregory/
-        * gregory.css
-      * header/
-        * header.css
-      * map/
-        * map.css
-      * portfolio/
-        * portfolio.css
-      * stay-in-touch/
-        * stay-in-touch.css
-      * testimonials/
-        * testimonials.css
-      * version/
-        * version.css
-      * main-layout.css
+      * choose-your-plan.css
+      * features.css
+      * footer.css
+      * gregory.css
+      * header.css
+      * map.css
+      * portfolio.css
+      * stay-in-touch.css
+      * testimonials.css
+      * version.css
     * variables/
-      * color/
-        * color.css
-      * font-size/
-        * font-size.css
       * main-var.css
     * main.css
 * .editorconfig
