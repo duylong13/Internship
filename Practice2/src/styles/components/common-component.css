@@ -1,0 +1,15 @@
+.heading {
+  line-height: 48px;
+  font-size: 44px;
+  text-align: center;
+  color: var(--black-dark);
+  font-weight: 400;
+}
+
+.button {
+  background-color: var(--orange-light);
+  width: 198px;
+  height: 48px;
+  color: var(--black-dark);
+  border-radius: 50px;
+}

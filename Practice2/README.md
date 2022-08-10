@@ -33,9 +33,6 @@
     * fonts/
     * images/
   * styles/
-    * base/
-      * base.css
-      * reset.css
     * components/
       * choose-your-plan.css
       * features.css
@@ -49,6 +46,8 @@
       * version.css
     * variables/
       * main-var.css
+    * base.css
+    * reset.css
     * main.css
 * .editorconfig
 * .gitignore
