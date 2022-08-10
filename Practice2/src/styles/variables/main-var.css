@@ -1,4 +1,26 @@
 :root {
-  --black-dark: #4B4B4B;
-  --orange-light: #EBCB80;
+  /* Color */
+  --c-light: #fff;
+  --c-dark: #4b4b4b;
+  --c-warning: #EBCB80;
+
+  /* Color heading */
+  --c-heading-light: var(--c-light);
+  --c-heading-dark: var(--c-dark);
+
+  /* Color text */
+  --c-text-light: var(--c-light);
+  --c-text-dark: var(--c-dark);
+
+  /* Font size */
+  --fs-default: 16px;
+  --fs-medium: 18px;
+  --fs-large: 44px;
+  --fs-largest: 64px;
+  --fs-base: 32px;
+
+  /* Breakpoints */
+  --bp-large: 1440px;
+  --bp-medium: 768px;
+  --bp-small: 320px;
 }

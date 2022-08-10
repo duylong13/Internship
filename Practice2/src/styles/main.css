@@ -2,5 +2,10 @@
 @import url(./variables/main-var.css);
 
 /* base */
-@import url(./base.css);
-@import url(./reset.css);
+@import url(./base/all.css);
+
+/* common-component */
+@import url(./components/common/all.css);
+
+/* Each component */
+@import url(./components/all.css);

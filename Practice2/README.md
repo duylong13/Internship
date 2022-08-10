@@ -33,7 +33,19 @@
     * fonts/
     * images/
   * styles/
+    * base/
+      * all.css
+      * base.css
+      * reset.css
     * components/
+      * common/
+        * all.css
+        * button.css
+        * heading-default.css
+        * heading-medium.css
+        * heading.css
+        * input-stay-in-touch.css
+      * all.css
       * choose-your-plan.css
       * features.css
       * footer.css
@@ -46,8 +58,6 @@
       * version.css
     * variables/
       * main-var.css
-    * base.css
-    * reset.css
     * main.css
 * .editorconfig
 * .gitignore

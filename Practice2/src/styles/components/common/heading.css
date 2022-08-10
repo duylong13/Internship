@@ -1,0 +1,6 @@
+.heading {
+  line-height: 48px;
+  font-size: var(--fs-large);
+  text-align: center;
+  font-weight: 400;
+}

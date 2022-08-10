@@ -1,0 +1,4 @@
+.heading-default {
+  font-size: var(--fs-default);
+  color: var(--c-dark);
+}
