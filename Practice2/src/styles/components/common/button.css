@@ -1,5 +1,20 @@
-.button {
-  height: 48px;
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
   border-radius: 50px;
-  position: absolute;
+  padding: var(--p-minimum) var(--p-default);
+}
+
+.btn-primary {
+  background-color: var(--c-warning);
+  color: var(--c-dark);
+  border-color: var(--c-warning);
+}
+
+.btn-secondary {
+  background-color: var(--c-dark);
+  color: var(--c-light);
+  border-color: var(--c-light);
 }

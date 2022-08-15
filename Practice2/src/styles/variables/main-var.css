@@ -23,4 +23,8 @@
   --bp-large: 1440px;
   --bp-medium: 768px;
   --bp-small: 320px;
+
+  /* Padding */
+  --p-default: 42px;
+  --p-minimum: 15px;
 }

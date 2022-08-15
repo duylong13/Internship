@@ -1,5 +1,7 @@
 @import url(./button.css);
+@import url(./card.css);
+@import url(./nav.css);
+@import url(./text.css);
 @import url(./heading.css);
-@import url(./heading-fault.css);
-@import url(./heading-medium.css);
 @import url(./input-stay-in-touch.css);
+@import url(./grid-items.css);

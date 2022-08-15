@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    gap: 12px 31px;
+    margin: 0 152px 0 149px;
+}
+
+.picture-grid {
+    float: left;
+    width: 96px;
+    height: 96px;
+}
