@@ -27,4 +27,7 @@
   /* Padding */
   --p-default: 42px;
   --p-minimum: 15px;
+
+  /* Line-height */
+  --lh-default: 21px
 }
