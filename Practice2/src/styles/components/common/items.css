@@ -24,6 +24,7 @@
   font-size: var(--fs-default);
   line-height: var(--lh-medium);
   color: var(--c-dark);
+  text-transform: uppercase;
 }
 
 .item-text-secondary {

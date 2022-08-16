@@ -32,6 +32,8 @@
 * src/
   * assets/
     * fonts/
+      * Roboto-Black.ttf
+      * Roboto-Regular.ttf
     * images/
   * styles/
     * base/
@@ -52,9 +54,9 @@
       * all.css
       * choose-your-plan.css
       * features.css
-      * footer.css
+      * bot.css
       * gregory.css
-      * header.css
+      * top.css
       * map.css
       * portfolio.css
       * stay-in-touch.css
@@ -63,8 +65,6 @@
     * variables/
       * all.css
       * breakpoints.css
-      * color-heading.css
-      * color-text.css
       * color.css
       * font-size.css
       * line-height.css

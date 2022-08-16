@@ -1,5 +1,14 @@
 :root {
+  /* Color */
   --c-light: #fff;
   --c-dark: #4b4b4b;
   --c-warning: #ebcB80;
+
+  /* Color heading */
+  --c-heading-light: var(--c-light);
+  --c-heading-dark: var(--c-dark);
+
+  /* Color text */
+  --c-text-light: var(--c-light);
+  --c-text-dark: var(--c-dark);
 }
