@@ -45,7 +45,6 @@
         * all.css
         * button.css
         * card.css
-        * grid-items.css
         * heading.css
         * input-stay-in-touch.css
         * items.css
@@ -66,6 +65,7 @@
       * all.css
       * breakpoints.css
       * color.css
+      * font-face.css
       * font-size.css
       * line-height.css
       * padding.css

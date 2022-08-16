@@ -1,3 +1,5 @@
 :root {
-  --lh-default: 21px
+  --lh-default: 21px;
+  --lh-minimum: 24px;
+  --lh-medium: 32px;
 }

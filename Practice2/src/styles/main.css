@@ -4,8 +4,5 @@
 /* base */
 @import url(./base/all.css);
 
-/* common-component */
-@import url(./components/common/all.css);
-
-/* Each component */
+/* Component */
 @import url(./components/all.css);
