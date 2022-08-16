@@ -28,6 +28,7 @@
 * Hold ctrl and click on the successfully created localhost link to view the website
 
 ## Folders Structure
+>> Follow this web [https://zellwk.com/blog/css-architecture-3/](https://zellwk.com/blog/css-architecture-3/).
 * src/
   * assets/
     * fonts/
@@ -41,10 +42,12 @@
       * common/
         * all.css
         * button.css
-        * heading-default.css
-        * heading-medium.css
+        * card.css
+        * grid-items.css
         * heading.css
         * input-stay-in-touch.css
+        * nav.css
+        * text.css
       * all.css
       * choose-your-plan.css
       * features.css
@@ -61,6 +64,7 @@
     * main.css
 * .editorconfig
 * .gitignore
+* common-component.html
 * index.html
 * package-lock.json
 * package.json
