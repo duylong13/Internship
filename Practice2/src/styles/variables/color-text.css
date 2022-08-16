@@ -1,0 +1,4 @@
+:root {
+  --c-text-light: var(--c-light);
+  --c-text-dark: var(--c-dark);
+}

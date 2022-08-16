@@ -1,45 +1,45 @@
 .card {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .card-title {
-    font-size: var(--fs-medium);
-    text-align: center;
-    line-height: 27px;
+  font-size: var(--fs-medium);
+  text-align: center;
+  line-height: 27px;
 }
 
 .card-title-primary {
-    color: var(--c-warning);
+  color: var(--c-warning);
 }
 
 .card-title-secondary {
-    color: var(--c-dark);
+  color: var(--c-dark);
 }
 
 .card-text-number {
-    font-size: var(--fs-largest);
-    text-align: center;
-    line-height: 48px;
+  font-size: var(--fs-largest);
+  text-align: center;
+  line-height: 48px;
 }
 
 .card-text-number-primary {
-    color: var(--c-light);
+  color: var(--c-light);
 }
 
 .card-text-number-secondary {
-    color: var(--c-dark);
+  color: var(--c-dark);
 }
 
 .card-text {
-    font-size: var(--fs-defalut);
-    line-height: 24px;
-    text-align: center;
+  font-size: var(--fs-defalut);
+  line-height: 24px;
+  text-align: center;
 }
 
 .card-text-primary {
-    color: var(--c-light);
+  color: var(--c-light);
 }
 
 .card-text-secondary {
-    color: var(--c-dark);
+  color: var(--c-dark);
 }

@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  gap: 12px 31px;
+  grid-template-columns: auto auto;
+  padding-left: var(--p-large);
+  padding-right: var(--p-large);
+}
+
+.item {
+  padding-top: 37px;
+}
+
+.item-image {
+  float: left;
+  width: 96px;
+  height: 96px;
+}
+
+.item-image-primary {
+  float: left;
+}
+
+.item-text-primary {
+  font-size: var(--fs-default);
+  line-height: var(--lh-medium);
+  color: var(--c-dark);
+}
+
+.item-text-secondary {
+  line-height: var(--lh-minimum);
+  font-size: var(--fs-default);
+  color: var(--c-dark);
+  text-align: left;
+}

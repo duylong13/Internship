@@ -46,6 +46,7 @@
         * grid-items.css
         * heading.css
         * input-stay-in-touch.css
+        * items.css
         * nav.css
         * text.css
       * all.css
@@ -60,7 +61,14 @@
       * testimonials.css
       * version.css
     * variables/
-      * main-var.css
+      * all.css
+      * breakpoints.css
+      * color-heading.css
+      * color-text.css
+      * color.css
+      * font-size.css
+      * line-height.css
+      * padding.css
     * main.css
 * .editorconfig
 * .gitignore
