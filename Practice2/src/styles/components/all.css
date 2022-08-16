@@ -1,3 +1,4 @@
+@import url(./common/all.css);
 @import url(./choose-your-plan.css);
 @import url(./features.css);
 @import url(./bot.css);
@@ -8,4 +9,3 @@
 @import url(./stay-in-touch.css);
 @import url(./testimonials.css);
 @import url(./version.css);
-@import url(./common/all.css);

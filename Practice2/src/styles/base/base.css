@@ -5,3 +5,8 @@ body {
   background: var(--c-light);
   line-height: var(--lh-default);
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
