@@ -1,5 +1,16 @@
 .card {
   border-radius: 8px;
+  border: 1px solid var(--c-dark);
+  width: 270px;
+  height: 396px;
+}
+
+.card-primary {
+  background-color: var(--c-dark);
+}
+
+.card-secondary {
+  background-color: var(--c-warning);
 }
 
 .card-title {
