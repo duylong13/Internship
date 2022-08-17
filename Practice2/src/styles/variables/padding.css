@@ -1,5 +1,14 @@
 :root {
-  --p-default: 42px;
-  --p-minimum: 15px;
+  /* Padding text */
   --p-large: 150px;
+  --p-default: 42px;
+  --p-minimum: 20px;
+  --p-wide: 68px;
+  --p-base: 38px;
+  --p-success: 28px;
+
+  /* Padding heading */
+  --p-heading-default: 40px;
+  --p-heading-medium: 62px;
+  --p-heading-base: 30px;
 }

@@ -1,8 +1,16 @@
 .card {
   border-radius: 8px;
   border: 1px solid var(--c-dark);
-  width: 270px;
-  height: 396px;
+}
+
+.card-test {
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-primary {
@@ -14,24 +22,32 @@
 }
 
 .card-title {
-  font-size: var(--fs-medium);
+  padding: 0 var(--p-heading-medium);
+  font-size: var(--fs-heading-default);
   text-align: center;
-  line-height: 27px;
+  line-height: var(--lh-heading-base);
   text-transform: uppercase;
 }
 
 .card-title-primary {
   color: var(--c-warning);
+  padding: var(--p-heading-default) 0 var(--p-heading-base) 0;
 }
 
 .card-title-secondary {
   color: var(--c-dark);
+  padding: var(--p-heading-default) 0 var(--p-heading-base) 0;
+}
+
+.card-title-success {
+  margin-bottom: 23px;
 }
 
 .card-text-number {
-  font-size: var(--fs-wider);
   text-align: center;
-  line-height: 48px;
+  font-size: var(--fs-large);
+  line-height: var(--lh-heading-large);
+  margin-bottom: 15px;
 }
 
 .card-text-number-primary {
@@ -42,10 +58,17 @@
   color: var(--c-dark);
 }
 
+.dollar {
+  vertical-align: super;
+  font-size: 24px;
+  margin-right: 1px;
+}
+
 .card-text {
   font-size: var(--fs-default);
   line-height: 24px;
   text-align: center;
+  padding: 0px var(--p-minimum);
 }
 
 .card-text-primary {
@@ -54,4 +77,8 @@
 
 .card-text-secondary {
   color: var(--c-dark);
+}
+
+.btn-card-text {
+  margin: var(--p-heading-base) var(--p-base) var(--p-base) var(--p-base);
 }

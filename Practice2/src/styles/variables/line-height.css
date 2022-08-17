@@ -1,5 +1,14 @@
 :root {
-  --lh-default: 21px;
-  --lh-minimum: 24px;
-  --lh-medium: 32px;
+  /* Line height */
+  --lh-default: 24px;
+  --lh-medium: 21px;
+  --lh-base: 32px;
+  --lh-minimum: 19px;
+
+  /* Line height heading */
+  --lh-heading-default: 30px;
+  --lh-heading-medium: 32px;
+  --lh-heading-large: 48px;
+  --lh-heading-base: 27px;
+  --lh-heading-wide: 42px;
 }

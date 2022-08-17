@@ -1,7 +1,12 @@
 :root {
+  /* Font size text */
   --fs-default: 16px;
   --fs-medium: 18px;
-  --fs-wide: 44px;
-  --fs-wider: 64px;
+  --fs-large: 64px;
   --fs-base: 32px;
+
+  /* Font size heading */
+  --fs-heading-default: 18px;
+  --fs-heading-large: 44px;
+  --fs-heading-minimum: 16px;
 }

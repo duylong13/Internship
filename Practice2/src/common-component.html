@@ -15,24 +15,32 @@
     <button type="button" class="btn btn-primary">Purchase</button>
     <button type="button" class="btn btn-secondary">Purchase</button>
   </div>
-  <div>
+  <div class="card-test">
     <h4>Cards</h4>
     <div class="card card-primary">
       <div class="card-body">
         <h5 class="card-title card-title-primary">Silver</h5>
-        <h4 class="card-text-number card-text-number-primary">$49</h4>
-        <h5 class="card-title">Year</h5>
+        <div class="card-text-number card-text-number-primary">
+          <span class="dollar">$</span>49
+        </div>
+        <h5 class="card-title card-title-success">Year</h5>
         <p class="card-text card-text-primary">Personal account ....</p>
-        <a href="javascript:void(0)" class="btn btn-primary">Purchase</a>
+        <p class="card-text card-text-primary">Personal account ....</p>
+        <p class="card-text card-text-primary">Personal account ....</p>
+        <a href="javascript:void(0)" class="btn btn-primary btn-card-text">Purchase</a>
       </div>
     </div>
     <div class="card card-secondary">
       <div class="card-body">
         <h5 class="card-title card-title-secondary">Silver</h5>
-        <h4 class="card-text-number card-text-number-secondary">$49</h4>
-        <h5 class="card-title">Year</h5>
+        <div class="card-text-number card-text-number-secondary">
+          <span class="dollar">$</span>99
+        </div>
+        <h5 class="card-title card-title-success">Year</h5>
         <p class="card-text card-text-secondary">Personal account ....</p>
-        <a href="javascript:void(0)" class="btn btn-secondary">Purchase</a>
+        <p class="card-text card-text-secondary">Personal account ....</p>
+        <p class="card-text card-text-secondary">Personal account ....</p>
+        <a href="javascript:void(0)" class="btn btn-secondary btn-card-text">Purchase</a>
       </div>
     </div>
   </div>
@@ -40,13 +48,13 @@
     <h4>Navs</h4>
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)">Hotels</a>
+        <a class="nav-link nav-link-success" href="javascript:void(0)">Hotels</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)">Airlines</a>
+        <a class="nav-link nav-link-success" href="javascript:void(0)">Airlines</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)">Vacation</a>
+        <a class="nav-link nav-link-success" href="javascript:void(0)">Vacation</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="javascript:void(0)">Find more</a>
@@ -59,31 +67,37 @@
   </div>
   <div>
     <h4>Grid</h4>
-    <div class="container">
-      <div class="item-container">
-        <div class="item-image">
-          <img src="./assets/images/responsive.jpg" alt="Item">
-        </div>
-        <h4 class="item-text-primary">Lulu Hoffman</h4>
-        <p class="item-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam neque culpa
-          tempora sapiente ab inventore est quod quidem, sint iste autem hic deleniti iusto, perferendis saepe ea!
-          Consequatur, libero.</p>
-        <p class="item-text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consectetur
-          saepe reiciendis quas fugiat eos aspernatur blanditiis architecto vel ab harum nisi odit ducimus itaque, iure
+    <div class="item-container">
+      <img src="./assets/images/responsive.jpg" alt="Item" class="item-image">
+      <div>
+        <h4 class="item-text item-text-primary">Lulu Hoffman</h4>
+        <p class="item-text item-text-secondary">Marketing Consultant at okodesign.net</p>
+        <p class="item-text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consectetur
+          saepe reiciendis quas fugiat eos aspernatur blanditiis architecto vel ab harum nisi odit ducimus itaque,
+          iure
           quam quae similique earum!</p>
+        <div class="item-icon">
+          <img src="./assets/images/Fill 1.png" alt="Icon" class="item-icon-success">
+          <img src="./assets/images/Fill 1.png" alt="Icon" class="item-icon-success">
+          <img src="./assets/images/Fill 1.png" alt="Icon">
+        </div>
       </div>
     </div>
   </div>
   <div>
     <h4>Features Common</h4>
-    <div>
-      <div class="item-image-primary">
-        <img src="./assets/images/responsive.jpg" alt="Icon">
+    <div class="item-features-container">
+      <img src="./assets/images/responsive.jpg" alt="Icon" class="item-features-image">
+      <div>
+        <h4 class="item-features-text item-features-text-primary">
+          Reponsive Layout
+        </h4>
+        <p class="item-features-text item-features-text-secondary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti culpa rerum, mollitia autem
+          tempora debitis suscipit, similique ab error voluptatem dignissimos atque dolore dolores eius corrupti earum
+          quas! Ullam!
+        </p>
       </div>
-      <h4 class="item-text-primary">Responsive Layout</h4>
-      <p class="item-text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium maiores
-        eligendi quo labore mollitia nemo rem quam, corporis sit rerum laudantium perspiciatis consectetur nisi,
-        blanditiis ab odit suscipit beatae.</p>
     </div>
   </div>
 </body>
