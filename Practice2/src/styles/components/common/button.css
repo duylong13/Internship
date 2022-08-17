@@ -1,10 +1,11 @@
 .btn {
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
   border-radius: 50px;
-  padding: var(--p-minimum) var(--p-default);
+  padding: var(--p-small) var(--p-default);
+  text-transform: uppercase;
+  font-size: var(--fs-default);
+  line-height: var(--lh-minimum);
+  letter-spacing: 0.0625em;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -16,5 +17,9 @@
 .btn-secondary {
   background-color: var(--c-dark);
   color: var(--c-light);
-  border-color: var(--c-light);
+  border-color: var(--c-dark);
+}
+
+.btn-card-text {
+  margin: var(--p-heading-base) var(--p-base) var(--p-base) var(--p-base);
 }

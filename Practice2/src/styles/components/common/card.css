@@ -3,10 +3,6 @@
   border: 1px solid var(--c-dark);
 }
 
-.card-test {
-  display: flex;
-}
-
 .card-body {
   display: flex;
   flex-direction: column;
@@ -43,6 +39,10 @@
   margin-bottom: 23px;
 }
 
+.card-title-dark {
+  margin-bottom: 23px;
+  color: var(--c-dark);
+}
 .card-text-number {
   text-align: center;
   font-size: var(--fs-large);
@@ -64,11 +64,12 @@
   margin-right: 1px;
 }
 
-.card-text {
+.card-common {
   font-size: var(--fs-default);
   line-height: 24px;
   text-align: center;
   padding: 0px var(--p-minimum);
+  display: flex;
 }
 
 .card-text-primary {
@@ -77,8 +78,4 @@
 
 .card-text-secondary {
   color: var(--c-dark);
-}
-
-.btn-card-text {
-  margin: var(--p-heading-base) var(--p-base) var(--p-base) var(--p-base);
 }
