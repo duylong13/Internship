@@ -1,17 +1,17 @@
 .text-heading {
   font-size: var(--fs-medium);
   color: var(--c-heading-light);
-  line-height: 21px;
+  line-height: var(--lh-medium);
 }
 
 .text-features-primary {
   font-size: var(--fs-default);
-  line-height: 30px;
+  line-height: var(--lh-heading-default);
   color: var(--c-dark);
 }
 
 .text-features-secondary {
   font-size: var(--fs-default);
-  line-height: 24px;
+  line-height: var(--lh-default);
   color: var(--c-dark);
 }

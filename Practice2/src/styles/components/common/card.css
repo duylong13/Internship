@@ -1,6 +1,5 @@
 .card {
   border-radius: 8px;
-  border: 1px solid var(--c-dark);
 }
 
 .card-body {
@@ -36,18 +35,18 @@
 }
 
 .card-title-success {
-  margin-bottom: 23px;
+  margin-bottom: var(--m-default);
 }
 
 .card-title-dark {
-  margin-bottom: 23px;
+  margin-bottom: var(--m-default);
   color: var(--c-dark);
 }
 .card-text-number {
   text-align: center;
   font-size: var(--fs-large);
   line-height: var(--lh-heading-large);
-  margin-bottom: 15px;
+  margin-bottom: var(--m-minimum);
 }
 
 .card-text-number-primary {
@@ -60,16 +59,17 @@
 
 .dollar {
   vertical-align: super;
-  font-size: 24px;
+  font-size: var(--fs-success);
   margin-right: 1px;
 }
 
 .card-common {
-  font-size: var(--fs-default);
-  line-height: 24px;
-  text-align: center;
-  padding: 0px var(--p-minimum);
   display: flex;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  line-height: var(--lh-default);
 }
 
 .card-text-primary {
