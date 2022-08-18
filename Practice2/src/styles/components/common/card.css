@@ -34,38 +34,48 @@
   padding: var(--p-heading-default) 0 var(--p-heading-base) 0;
 }
 
-.card-title-success {
-  margin-bottom: var(--m-default);
-}
-
-.card-title-dark {
-  margin-bottom: var(--m-default);
-  color: var(--c-dark);
-}
-.card-text-number {
+.plan-price {
   text-align: center;
   font-size: var(--fs-large);
   line-height: var(--lh-heading-large);
   margin-bottom: var(--m-minimum);
 }
 
-.card-text-number-primary {
+.plan-price-primary {
   color: var(--c-light);
 }
 
-.card-text-number-secondary {
+.plan-price-secondary {
   color: var(--c-dark);
 }
 
-.dollar {
+.currency {
   vertical-align: super;
   font-size: var(--fs-success);
   margin-right: 1px;
 }
 
+.plan-year {
+  padding: 0 var(--p-heading-medium);
+  font-size: var(--fs-heading-default);
+  text-align: center;
+  line-height: var(--lh-heading-base);
+  text-transform: uppercase;
+}
+
+.plan-year-primary {
+  margin-bottom: var(--m-default);
+}
+
+.plan-year-secondary {
+  margin-bottom: var(--m-default);
+  color: var(--c-dark);
+}
+
 .card-common {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 30px;
 }
 
 .card-text {
@@ -78,4 +88,8 @@
 
 .card-text-secondary {
   color: var(--c-dark);
+}
+
+.plan-purchase {
+  margin: var(--p-heading-base) var(--p-base) var(--p-base) var(--p-base);
 }

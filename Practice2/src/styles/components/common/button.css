@@ -20,7 +20,3 @@
   color: var(--c-light);
   border-color: var(--c-dark);
 }
-
-.btn-card-text {
-  margin: var(--p-heading-base) var(--p-base) var(--p-base) var(--p-base);
-}
