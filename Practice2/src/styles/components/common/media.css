@@ -1,9 +1,9 @@
-.media {
+.list-unstyled {
   display: flex;
   column-gap: 30px;
 }
 
-.media-sub {
+.media {
   padding-top: var(--p-base);
   display: flex;
 }
