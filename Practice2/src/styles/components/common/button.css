@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 50px;
+  padding: var(--p-small) var(--p-default);
+  text-transform: uppercase;
+  font-size: var(--fs-default);
+  line-height: var(--lh-minimum);
+  letter-spacing: 0.0625em;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--c-warning);
+  color: var(--c-dark);
+  border-color: var(--c-warning);
+}
+
+.btn-secondary {
+  background-color: var(--c-dark);
+  color: var(--c-light);
+  border-color: var(--c-dark);
+}

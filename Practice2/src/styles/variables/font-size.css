@@ -1,0 +1,13 @@
+:root {
+  /* Font size text */
+  --fs-default: 16px;
+  --fs-medium: 18px;
+  --fs-large: 64px;
+  --fs-base: 32px;
+  --fs-success: 24px;
+
+  /* Font size heading */
+  --fs-heading-default: 18px;
+  --fs-heading-large: 44px;
+  --fs-heading-minimum: 16px;
+}

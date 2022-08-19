@@ -1,0 +1,14 @@
+.heading {
+  color: var(--c-dark);
+  text-align: center;
+}
+
+.sub-heading {
+  color: var(--c-dark);
+  margin: var(--m-large) 0;
+  text-align: center;
+}
+
+.common {
+  padding-left: var(--p-success);
+}

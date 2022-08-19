@@ -1,0 +1,95 @@
+.card {
+  border-radius: 8px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-primary {
+  background-color: var(--c-dark);
+}
+
+.card-secondary {
+  background-color: var(--c-warning);
+}
+
+.card-title {
+  padding: 0 var(--p-heading-medium);
+  font-size: var(--fs-heading-default);
+  text-align: center;
+  line-height: var(--lh-heading-base);
+  text-transform: uppercase;
+}
+
+.card-title-primary {
+  color: var(--c-warning);
+  padding: var(--p-heading-default) 0 var(--p-heading-base) 0;
+}
+
+.card-title-secondary {
+  color: var(--c-dark);
+  padding: var(--p-heading-default) 0 var(--p-heading-base) 0;
+}
+
+.plan-price {
+  text-align: center;
+  font-size: var(--fs-large);
+  line-height: var(--lh-heading-large);
+  margin-bottom: var(--m-minimum);
+}
+
+.plan-price-primary {
+  color: var(--c-light);
+}
+
+.plan-price-secondary {
+  color: var(--c-dark);
+}
+
+.currency {
+  vertical-align: super;
+  font-size: var(--fs-success);
+  margin-right: 1px;
+}
+
+.plan-year {
+  padding: 0 var(--p-heading-medium);
+  font-size: var(--fs-heading-default);
+  text-align: center;
+  line-height: var(--lh-heading-base);
+  text-transform: uppercase;
+}
+
+.plan-year-primary {
+  margin-bottom: var(--m-default);
+}
+
+.plan-year-secondary {
+  margin-bottom: var(--m-default);
+  color: var(--c-dark);
+}
+
+.card-common {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.card-text {
+  line-height: var(--lh-default);
+}
+
+.card-text-primary {
+  color: var(--c-light);
+}
+
+.card-text-secondary {
+  color: var(--c-dark);
+}
+
+.plan-purchase {
+  margin: var(--p-heading-base) var(--p-base) var(--p-base) var(--p-base);
+}

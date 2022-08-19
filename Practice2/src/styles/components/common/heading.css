@@ -1,0 +1,6 @@
+.heading {
+  line-height: var(--lh-heading-large);
+  font-size: var(--fs-heading-large);
+  text-align: center;
+  font-weight: 400;
+}

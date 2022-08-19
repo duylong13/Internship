@@ -1,0 +1,12 @@
+.search {
+  border: 0;
+  border-bottom: 1px solid var(--c-darker);
+  height: 29px;
+}
+
+::placeholder {
+  width: 166px;
+  height: 27px;
+  font-size: var(--fs-heading-default);
+  line-height: var(--lh-heading-base);
+}

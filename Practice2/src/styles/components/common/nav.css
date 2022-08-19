@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  background-color: var(--c-dark);
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--c-light);
+  font-size: var(--fs-medium);
+  line-height: var(--lh-medium);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-link-success {
+  margin-right: var(--m-base);
+}

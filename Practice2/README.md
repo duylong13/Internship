@@ -28,30 +28,51 @@
 * Hold ctrl and click on the successfully created localhost link to view the website
 
 ## Folders Structure
+>> Follow this web [https://zellwk.com/blog/css-architecture-3/](https://zellwk.com/blog/css-architecture-3/).
 * src/
   * assets/
     * fonts/
+      * Roboto-Black.ttf
+      * Roboto-Regular.ttf
     * images/
   * styles/
     * base/
+      * all.css
       * base.css
       * reset.css
     * components/
+      * common/
+        * all.css
+        * button.css
+        * card.css
+        * heading.css
+        * input-stay-in-touch.css
+        * items.css
+        * nav.css
+        * text.css
+      * all.css
       * choose-your-plan.css
       * features.css
-      * footer.css
+      * bot.css
       * gregory.css
-      * header.css
+      * top.css
       * map.css
       * portfolio.css
       * stay-in-touch.css
       * testimonials.css
       * version.css
     * variables/
-      * main-var.css
+      * all.css
+      * breakpoints.css
+      * color.css
+      * font-face.css
+      * font-size.css
+      * line-height.css
+      * padding.css
     * main.css
 * .editorconfig
 * .gitignore
+* common-component.html
 * index.html
 * package-lock.json
 * package.json
