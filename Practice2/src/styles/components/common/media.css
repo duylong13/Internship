@@ -1,13 +1,17 @@
 .media {
-  padding-top: var(--p-base);
   display: flex;
   column-gap: 30px;
 }
 
+.media-sub {
+  padding-top: var(--p-base);
+  display: flex;
+}
+
 .thumbnail {
-  float: left;
   width: 96px;
   height: 96px;
+  padding-left: var(--p-default);
 }
 
 .media-body {
