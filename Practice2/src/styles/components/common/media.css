@@ -1,7 +1,7 @@
 .media {
   padding-top: var(--p-base);
-  width: 40%;
   display: flex;
+  column-gap: 30px;
 }
 
 .thumbnail {
