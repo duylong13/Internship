@@ -1,6 +1,6 @@
 {
   "name": "practice2",
-  "source": "src/common-component.html",
+  "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
   "scripts": {
