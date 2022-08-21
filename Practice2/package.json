@@ -11,6 +11,7 @@
   "author": "LongHoang",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "posthtml-include": "^1.7.4"
   }
 }
