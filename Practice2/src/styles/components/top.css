@@ -14,9 +14,19 @@
 .top-img-sub {
   display: flex;
   top: 312px;
-  margin-top: 53px;
+  margin: 53px auto;
   padding-bottom: 132px;
   justify-content: center;
+}
+
+.play-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -110px -36px;
 }
 
 .top-text {
@@ -32,7 +42,6 @@
 }
 
 .nav-top {
-  top: 0;
   display: flex;
   padding: 48px var(--p-large) 0 var(--p-large);
 }
@@ -53,4 +62,15 @@
   text-align: center;
   margin-top: 74px;
   padding: 0 410px;
+}
+
+.nav-video {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-top {
+    display: flex;
+
+  }
 }
