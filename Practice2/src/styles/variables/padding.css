@@ -12,4 +12,8 @@
   --p-heading-default: 40px;
   --p-heading-medium: 62px;
   --p-heading-base: 30px;
+
+  /* Padding tablet */
+  --p-tb-default: 24px;
+  --p-tb-small: 16px;
 }
