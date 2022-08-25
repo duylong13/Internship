@@ -63,7 +63,6 @@
 .media-features {
   display: flex;
   flex-grow: 1;
-  width: 30%;
 }
 
 .media-features-thumbnail {
