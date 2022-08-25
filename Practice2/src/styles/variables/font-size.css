@@ -10,4 +10,16 @@
   --fs-heading-default: 18px;
   --fs-heading-large: 44px;
   --fs-heading-minimum: 16px;
+
+  /* Font size tablet */
+  --fs-tb-default: 12px;
+  --fs-tb-small: 11px;
+
+  /* Font size heading tablet */
+  --fs-tb-heading-default: 32px;
+  --fs-tb-heading-large: 36px;
+  --fs-tb-heading-medium: 24px;
+
+  /* Font size mobile */
+  --fs-heading-m-default: 20px;
 }

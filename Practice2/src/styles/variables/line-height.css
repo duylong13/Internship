@@ -11,4 +11,9 @@
   --lh-heading-large: 48px;
   --lh-heading-base: 27px;
   --lh-heading-wide: 42px;
+
+  /* Line height tablet */
+  --lh-tb-default: 16px;
+  --lh-tb-medium: 27px;
+  --lh-tb-base: 36px;
 }
