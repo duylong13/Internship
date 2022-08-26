@@ -24,7 +24,8 @@
 
 .features-social {
   display: flex;
-  padding: 0 72px 59px 162px;
+  align-items: center;
+  justify-content: center;
   margin-top: 55px;
 }
 
@@ -48,23 +49,18 @@
     line-height: var(--lh-default);
   }
 
-  .features-social {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 0 40px 50px;
+  .media-text {
+    max-width: 213px;
+    margin: 0;
   }
 
-  .futures-device {
-    width: 100%;
+  .features-social {
+    display: flex;
+    padding-left: 40px;
   }
 
   .features-macbook {
-    width: 100%;
-    height: 100%;
-  }
-
-  .media-text-success {
-    max-width: 262px;
+    margin-bottom: 40px;
   }
 }
 
@@ -80,9 +76,18 @@
     line-height: var(--lh-default);
   }
 
+  .media-text {
+    max-width: 202px;
+    margin: 0;
+  }
+
   .features-social {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .features-macbook {
+    margin-top: 37px;
   }
 }

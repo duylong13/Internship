@@ -75,7 +75,7 @@
   padding-left: var(--m-success);
 }
 
-.media-title-features {
+.media-heading {
   font-size: var(--fs-heading-minimum);
   line-height: var(--lh-heading-default);
   text-transform: uppercase;
