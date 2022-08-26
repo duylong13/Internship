@@ -51,14 +51,37 @@
   .features-social {
     display: flex;
     justify-content: space-around;
-    /* overflow: hidden; */
+    padding: 0 0 0 50px;
   }
 
   .futures-device {
     width: 100%;
   }
 
-  .media-text {
+  .features-macbook {
+    width: 100%;
+    height: 100%;
+  }
 
+  .media-text-success {
+    max-width: 262px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .features-heading {
+    font-size: var(--fs-heading-m-default);
+    line-height: var(--lh-tb-large);
+  }
+
+  .features-heading-sub {
+    font-size: var(--fs-tb-default);
+    line-height: var(--lh-default);
+  }
+
+  .features-social {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
   }
 }
