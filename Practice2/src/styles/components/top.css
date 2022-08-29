@@ -81,7 +81,7 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
-  .nav-top {
+  .navbar-top {
     display: flex;
     padding: 32px var(--p-tb-default) 0 var(--p-tb-default);
     justify-content: space-around;
@@ -120,7 +120,7 @@
 }
 
 @media only screen and (max-device-width: 767px) {
-  .nav-top {
+  .navbar-top {
     display: flex;
     padding: var(--p-tb-default) var(--p-small) 0 var(--p-small);
     justify-content: space-between;
