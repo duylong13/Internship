@@ -45,7 +45,7 @@
   padding-left: 50px;
 }
 
-.nav-top {
+.navbar-top {
   display: flex;
   padding: 48px var(--p-large) 0 var(--p-large);
   justify-content: space-around;
