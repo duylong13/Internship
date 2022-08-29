@@ -1,6 +1,8 @@
 .list-unstyled {
-  display: flex;
-  column-gap: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 31px 12px;
+  justify-content: center;
 }
 
 .media {
@@ -29,6 +31,7 @@
 
 .media-title-success {
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .media-sub-title {
@@ -49,6 +52,7 @@
   text-align: left;
   margin-bottom: var(--m-default);
   padding: 0 var(--p-base) 0 var(--p-success);
+  max-width: 351px;
 }
 
 .media-social {
