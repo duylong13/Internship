@@ -1,0 +1,150 @@
+.page-choose-your-plan {
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-success);
+}
+
+.choose-your-plan-heading {
+  color: var(--c-dark);
+  font-size: var(--fs-heading-large);
+  line-height: var(--lh-heading-large);
+  text-align: center;
+  font-weight: normal;
+  padding-top: 68px;
+  margin-bottom: 52px;
+}
+
+.card-common {
+  justify-content: center;
+}
+
+.card {
+  margin-bottom: 116px;
+}
+
+.choose-your-plan-text-common {
+  display: none;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+  .choose-your-plan-heading {
+    font-size: var(--fs-tb-heading-default);
+    line-height: var(--lh-tb-large);
+  }
+
+  .card-title {
+    font-size: var(--fs-tb-default);
+    line-height: var(--lh-tb-medium);
+  }
+
+  .plan-price {
+    font-size: var(--fs-tb-heading-large);
+    line-height: var(--lh-heading-large);
+  }
+
+  .plan-year {
+    font-size: var(--fs-tb-default);
+    line-height: var(--lh-tb-medium);
+  }
+
+  .plan-year-primary {
+    margin-bottom: 7px;
+  }
+
+  .plan-year-secondary {
+    margin-bottom: 7px;
+  }
+
+  .currency {
+    font-size: var(--fs-tb-small);
+    line-height: 13px;
+  }
+
+  .card-text {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-default);
+  }
+
+  .card-title-primary {
+    padding: 22px 0px 12px 0px;
+  }
+
+  .card-title-secondary {
+    padding: 22px 0px 12px 0px;
+  }
+
+  .btn {
+    font-size: var(--fs-tb-small);
+    line-height: 13px;
+  }
+
+  .plan-purchase {
+    margin: 16px 24px 32px 26px;
+  }
+
+  .choose-your-plan-text-common {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .choose-your-plan-heading {
+    font-size: var(--fs-heading-m-default);
+    line-height: var(--lh-default);
+  }
+
+  .plan-purchase-primary {
+    margin: var(--m-success) 12px 20px 12px;
+  }
+
+  .plan-purchase-success {
+    margin: var(--m-success) var(--m-default) 28px var(--m-default);
+  }
+
+  .card-title-primary {
+    padding-top: 50px;
+  }
+
+  .card-common {
+    position: relative;
+  }
+
+  .card-success {
+    position: relative;
+    z-index: 1;
+    top: -20px;
+  }
+
+  .card-warning {
+    z-index: 3;
+    position: absolute;
+  }
+
+  .card-danger {
+    background-color: rgba(var(--color), 0.7);
+    z-index: 2;
+    position: absolute;
+    top: -10px;
+    opacity: 0.7;
+  }
+
+  .choose-your-plan-text-common {
+    display: flex;
+    justify-content: space-around;
+    color: var(--c-dark);
+    text-transform: uppercase;
+    font-size: var(--fs-tb-default);
+    line-height: var(--lh-tb-default);
+    margin-bottom: 40px;
+  }
+
+  .text-primary {
+    padding: 4px 23px;
+  }
+
+  .text-secondary {
+    border-radius: 48px;
+    background-color: var(--c-warning);
+    padding: 4px 23px;
+  }
+}
