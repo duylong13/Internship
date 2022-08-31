@@ -110,6 +110,10 @@
   }
 
   .card {
+    margin-bottom: 40px;
+  }
+
+  .card-primary {
     position: absolute;
   }
 
