@@ -1,0 +1,19 @@
+.page-stay-in-touch {
+  width: 100%;
+  height: 100%;
+}
+
+.stay-in-touch-img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-success {
+  display: flex;
+}
+
+.contact-text {
+  font-size: var(--fs-default);
+  line-height: var(--lh-default);
+  color: var(--c-dark);
+}
