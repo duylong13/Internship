@@ -1,0 +1,252 @@
+.page-stay-in-touch {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-success {
+  display: flex;
+}
+
+.contact-text {
+  font-size: var(--fs-default);
+  line-height: var(--lh-default);
+  color: var(--c-dark);
+}
+
+.stay-in-touch-social {
+  display: flex;
+  column-gap: 34px;
+}
+
+.stay-in-touch-heading {
+  font-size: var(--fs-heading-large);
+  line-height: var(--lh-heading-large);
+  color: var(--c-dark);
+  text-align: center;
+  padding-top: 67px;
+  font-weight: normal;
+}
+
+.stay-in-touch-container-common {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stay-in-touch-container-primary {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stay-in-touch-container-secondary {
+  margin-top: 69px;
+}
+
+.input-common {
+  display: flex;
+  column-gap: 28px;
+  margin-bottom: 38px;
+}
+
+.btn-submit {
+  margin-top: 58px;
+  max-width: 210px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.stay-in-touch-contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+.stay-in-touch-social {
+  margin-top: 39px;
+}
+
+.contact-text {
+  max-width: 234px;
+}
+
+.stay-in-touch-icon {
+  width: 11px;
+  height: 17px;
+  margin-right: 18px;
+  text-align: center;
+}
+
+.mail {
+  width: 17px;
+  height: 10px;
+  margin-right: 12px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+  .stay-in-touch-img {
+    display: none;
+  }
+
+  .stay-in-touch-heading {
+    font-size: var(--fs-tb-heading-default);
+    line-height: var(--lh-tb-large);
+  }
+
+  .stay-in-touch-container-primary {
+    margin-top: 48px;
+  }
+
+  .stay-in-touch-container-secondary {
+    margin-top: 48px;
+  }
+
+  .btn-submit {
+    max-width: 140px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 30px;
+  }
+
+  .stay-in-touch-contact {
+    row-gap: 16px;
+  }
+
+  .stay-in-touch-social {
+    margin-top: 22px;
+  }
+
+  .stay-in-touch-icon {
+    width: 11px;
+    height: 17px;
+    margin-right: 9px;
+  }
+
+  .stay-in-touch-social {
+    column-gap: 31px;
+  }
+
+  .input-common {
+    column-gap: 17px;
+    margin-bottom: 18px;
+  }
+
+  .contact-text {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-tb-default);
+  }
+
+  .search::placeholder {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-tb-default);
+  }
+
+  .mail {
+    width: 17px;
+    height: 10px;
+    margin-right: 6px;
+  }
+
+  .location {
+    width: 11px;
+    height: 17px;
+    margin-right: 12px;
+  }
+
+  .phone {
+    width: 12px;
+    height: 17px;
+    margin-right: 11px;
+  }
+
+  .social-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .stay-in-touch-img {
+    display: none;
+  }
+
+  .stay-in-touch-heading {
+    font-size: var(--fs-heading-m-default);
+    line-height: var(--lh-tb-large);
+  }
+
+  .stay-in-touch-container-common {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stay-in-touch-container-primary {
+    margin-top: 18px;
+  }
+
+  .stay-in-touch-container-secondary {
+    margin-top: 16px;
+  }
+
+  .input-common {
+    column-gap: 11px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-tb-default);
+    padding: 8px 47px;
+  }
+
+  .btn-submit {
+    margin: 19px auto;
+  }
+
+  .search-common {
+    max-width: 114px;
+  }
+
+  .search::placeholder {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-tb-default);
+  }
+
+  .stay-in-touch-icon {
+    margin-right: 6px;
+  }
+
+  .contact-text {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-tb-default);
+    max-width: 226px;
+    text-align: left;
+  }
+
+  .stay-in-touch-social {
+    column-gap: 31px;
+  }
+
+  .mail {
+    width: 17px;
+    height: 10px;
+    margin-right: 6px;
+  }
+
+  .location {
+    width: 11px;
+    height: 17px;
+    margin-right: 12px;
+  }
+
+  .phone {
+    width: 12px;
+    height: 17px;
+    margin-right: 11px;
+  }
+
+  .social-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
