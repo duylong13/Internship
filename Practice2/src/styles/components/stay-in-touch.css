@@ -128,7 +128,7 @@
     line-height: var(--lh-tb-default);
   }
 
-  ::placeholder {
+  .search::placeholder {
     font-size: var(--fs-tb-small);
     line-height: var(--lh-tb-default);
   }
@@ -177,7 +177,7 @@
     max-width: 114px;
   }
 
-  ::placeholder {
+  .search::placeholder {
     font-size: var(--fs-tb-small);
     line-height: var(--lh-tb-default);
   }
