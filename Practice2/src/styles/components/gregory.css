@@ -125,6 +125,13 @@
     margin-bottom: 24px;
   }
 
+  .gregory-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 240px;
+  }
+
   .gregory-text {
     font-size: var(--fs-tb-small);
     line-height: var(--lh-tb-default);

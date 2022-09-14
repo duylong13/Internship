@@ -67,7 +67,7 @@
   }
 
   .version-text-common {
-    max-width: 240px;
+    min-width: 240px;
     padding-top: 94px;
     padding-bottom: 113px;
   }
