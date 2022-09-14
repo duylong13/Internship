@@ -324,14 +324,16 @@
   }
 
   .portfolio-container {
-    grid-template-columns: 145px 145px;
-    grid-template-rows: 145px 145px 145px 145px 145px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       'i1 i4'
       'i2 i2'
       'i7 i5'
       'i3 i3'
       'i6 i6';
+    min-width: 240px;
+
   }
 
   .blue-mountain-common {
