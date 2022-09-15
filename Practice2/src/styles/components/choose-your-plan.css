@@ -88,6 +88,10 @@
 }
 
 @media only screen and (max-device-width: 767px) {
+  .page-choose-your-plan {
+    padding-bottom: 44px;
+  }
+
   .choose-your-plan-heading {
     font-size: var(--fs-heading-m-default);
     line-height: var(--lh-default);

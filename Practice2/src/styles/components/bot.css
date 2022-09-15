@@ -73,6 +73,11 @@
   line-height: var(--lh-default);
 }
 
+.link-success {
+  color: var(--c-light);
+  text-decoration: none;
+}
+
 .bot-text-list-sub {
   padding-top: 89px;
   display: flex;
