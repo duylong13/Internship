@@ -71,10 +71,10 @@
 .text-list {
   font-size: var(--fs-medium);
   line-height: var(--lh-default);
-  color: var(--c-light);
 }
 
 .link-success {
+  color: var(--c-light);
   text-decoration: none;
 }
 

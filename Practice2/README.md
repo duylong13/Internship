@@ -24,6 +24,7 @@
 * Select Terminal on the toolbar or press Ctrl + Shift + `
 * Run command "cd Internship"
 * Run command "cd Practice2"
+* Run command "git checkout practice-two"
 * Run command "npm install" to install package of practice
 * Run command "npm start"
 * Hold ctrl and click on the successfully created localhost link to view the website
