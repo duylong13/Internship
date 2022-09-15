@@ -71,6 +71,11 @@
 .text-list {
   font-size: var(--fs-medium);
   line-height: var(--lh-default);
+  color: var(--c-light);
+}
+
+.link-success {
+  text-decoration: none;
 }
 
 .bot-text-list-sub {

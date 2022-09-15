@@ -79,6 +79,22 @@
   .media-text {
     max-width: 202px;
     margin: 0;
+    padding-left: 14px;
+  }
+
+  .media-text-success {
+    font-size: var(--fs-tb-small);
+    line-height: var(--lh-tb-default);
+  }
+
+  .media-heading {
+    font-size: var(--fs-tb-default);
+    line-height: var(--lh-tb-default);
+  }
+
+  .media-features-thumbnail {
+    width: 33px;
+    height: 27px;
   }
 
   .features-social {
